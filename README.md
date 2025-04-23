@@ -30,7 +30,7 @@ We evaluate each method on three distinct model types:
 | `FedDist_mimicIII_MLP.ipynb` | MLP training on MIMIC-III with FedDist |
 | `FedLAMA_mimicIII_MLP.ipynb` | MLP training on MIMIC-III with FedLAMA |
 | `TransformerAllMethods.py` | DistilBERT-based training on Sentiment140 for all aggregation methods |
-| `paper.pdf` | Paper describing the methodology and results |
+| `Federated_Learning.pdf` | Paper describing the methodology and results |
 
 ## 🧪 Datasets
 
