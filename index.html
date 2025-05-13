@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Cole Feuer | Federated Aggregation Research</title>
+  <meta name="description" content="Cole Feuer's research on federated learning, comparing aggregation methods like FedAvg, FedLAMA, and FedDist across CNN, MLP, and Transformer models." />
+  <meta name="keywords" content="Cole Feuer, federated learning, FedAvg, FedLAMA, FedDist, machine learning, MIMIC-III, CIFAR-10, Sentiment140, aggregation methods" />
+  <meta name="author" content="Cole Feuer" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://thravt.github.io/FederatedAggregation/" />
+
+  <!-- Open Graph for better previews on social media -->
+  <meta property="og:title" content="Cole Feuer | Federated Aggregation Research" />
+  <meta property="og:description" content="Explore Cole Feuer's research comparing federated aggregation methods across model types and data modalities." />
+  <meta property="og:url" content="https://thravt.github.io/FederatedAggregation/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Schema.org Person JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Cole Feuer",
+    "url": "https://thravt.github.io/FederatedAggregation/",
+    "sameAs": [
+      "https://github.com/CDFire",
+      "https://linkedin.com/in/colefeuer",
+      "mailto:coledfeuer@gmail.com"
+    ],
+    "jobTitle": "Machine Learning Researcher",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Rensselaer Polytechnic Institute"
+    }
+  }
+  </script>
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      max-width: 900px;
+      line-height: 1.6;
+      background: #f8f9fa;
+      color: #333;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #444;
+    }
+    a {
+      color: #007acc;
+    }
+    section {
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Federated Aggregation Research</h1>
+  <p><strong>Primary Author:</strong> Cole Feuer<br>
+     <strong>Co-authors:</strong> Tyler Thraves, Sahithi Kamireddy<br>
+     <strong>Institution:</strong> Rensselaer Polytechnic Institute<br>
+     <strong>Email:</strong> <a href="mailto:coledfeuer@gmail.com">coledfeuer@gmail.com</a></p>
+
+  <section>
+    <h2>Project Overview</h2>
+    <p>This research project explores the performance of different federated aggregation methods—FedAvg, FedLAMA, and FedDist—on a variety of deep learning architectures and datasets. It aims to answer how these methods perform across vision, tabular, and text domains using a consistent evaluation pipeline.</p>
+  </section>
+
+  <section>
+    <h2>Technical Summary</h2>
+    <ul>
+      <li><strong>FedAvg:</strong> Standard model averaging based on local client weights</li>
+      <li><strong>FedLAMA:</strong> Layer-wise adaptive aggregation that accounts for gradient variability</li>
+      <li><strong>FedDist:</strong> Output-level distillation using a public dataset for soft-label aggregation</li>
+    </ul>
+    <p>Each method was tested on:</p>
+    <ul>
+      <li><strong>CNN</strong> model on <em>CIFAR-10</em> (image classification)</li>
+      <li><strong>MLP</strong> model on <em>MIMIC-III</em> (clinical tabular data)</li>
+      <li><strong>DistilBERT</strong> on <em>Sentiment140</em> (text sentiment classification)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Repository</h2>
+    <p>Explore the full codebase and experiment results here: <a href="https://github.com/thravt/FederatedAggregation" target="_blank">https://github.com/thravt/FederatedAggregation</a></p>
+  </section>
+
+  <section>
+    <h2>Key Takeaways</h2>
+    <ul>
+      <li>FedLAMA generally achieved more stable convergence in smaller models</li>
+      <li>FedDist proved effective when a small public dataset was available for distillation</li>
+      <li>FedAvg remained competitive in simpler tasks with balanced data</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>For inquiries or collaboration opportunities, email <a href="mailto:coledfeuer@gmail.com">coledfeuer@gmail.com</a>.</p>
+  </section>
+</body>
+</html>
